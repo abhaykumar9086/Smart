@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D1490B0-E6AE-43CF-B22D-8F6C4FA655C1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Smart.Basel.DataAccess</RootNamespace>
+    <AssemblyName>Smart.Basel.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BusinessObjects\EadDqCharManager.cs" />
+    <Compile Include="BusinessObjects\PdDqNumManager.cs" />
+    <Compile Include="BusinessObjects\PdDqCharManager.cs" />
+    <Compile Include="BusinessObjects\PdPortfolioDefaultRateManager.cs" />
+    <Compile Include="BusinessObjects\PdRwaSummaryManager.cs" />
+    <Compile Include="BusinessObjects\PdPsiManager.cs" />
+    <Compile Include="BusinessObjects\PdCombinedOutputManager.cs" />
+    <Compile Include="BusinessObjects\PdMonitoringItemManager.cs" />
+    <Compile Include="BusinessObjects\PdKsCalculationManager.cs" />
+    <Compile Include="BusinessObjects\PdCsiManager.cs" />
+    <Compile Include="BusinessObjects\PdBalanceSummaryManager.cs" />
+    <Compile Include="BusinessObjects\LgdAccuracyManager.cs" />
+    <Compile Include="BusinessObjects\EadAccuracyManager.cs" />
+    <Compile Include="BusinessObjects\LgdDqCharManager.cs" />
+    <Compile Include="BusinessObjects\LgdLossShortfallManager.cs" />
+    <Compile Include="BusinessObjects\LgdDqNumManager.cs" />
+    <Compile Include="BusinessObjects\EadPsiManager.cs" />
+    <Compile Include="BusinessObjects\EadDqNumManager.cs" />
+    <Compile Include="DataAccess\EadDqCharWriter.cs" />
+    <Compile Include="DataAccess\PdDqNumWriter.cs" />
+    <Compile Include="DataAccess\PdDqCharWriter.cs" />
+    <Compile Include="DataAccess\PdPortfolioDefaultRateWriter.cs" />
+    <Compile Include="DataAccess\PdRwaSummaryWriter.cs" />
+    <Compile Include="DataAccess\PdPsiWriter.cs" />
+    <Compile Include="DataAccess\PdCombinedOutputWriter.cs" />
+    <Compile Include="DataAccess\PdMonitoringItemWriter.cs" />
+    <Compile Include="DataAccess\PdKsCalculationWriter.cs" />
+    <Compile Include="DataAccess\PdCsiWriter.cs" />
+    <Compile Include="DataAccess\PdBalanceSummaryWriter.cs" />
+    <Compile Include="DataAccess\LgdDqCharWriter.cs" />
+    <Compile Include="DataAccess\LgdLossShortfallWriter.cs" />
+    <Compile Include="DataAccess\LgdDqNumWriter.cs" />
+    <Compile Include="DataAccess\LgdAccuracyWriter.cs" />
+    <Compile Include="DataAccess\EadPsiWriter.cs" />
+    <Compile Include="DataAccess\EadAccuracyWriter.cs" />
+    <Compile Include="DataAccess\EadDqNumWriter.cs" />
+    <Compile Include="Models\EadDqChar.cs" />
+    <Compile Include="Models\PdDqNum.cs" />
+    <Compile Include="Models\PdDqChar.cs" />
+    <Compile Include="Models\PdRwaSummary.cs" />
+    <Compile Include="Models\PdPortfolioDefaultRate.cs" />
+    <Compile Include="Models\PdPsi.cs" />
+    <Compile Include="Models\PdBalanceSummary.cs" />
+    <Compile Include="Models\LgdDqChar.cs" />
+    <Compile Include="Models\LgdLossShortfall.cs" />
+    <Compile Include="Models\LgdAccuracy.cs" />
+    <Compile Include="Models\EadAccuracy.cs" />
+    <Compile Include="Models\LgdDqNum.cs" />
+    <Compile Include="Models\EadDqNum.cs" />
+    <Compile Include="Models\EadPsi.cs" />
+    <Compile Include="Models\PdCombinedOutput.cs" />
+    <Compile Include="Models\PdMonitoringItem.cs" />
+    <Compile Include="Models\PdKsCalculation.cs" />
+    <Compile Include="Models\PdCsi.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Smart.Constants\Smart.Constants.csproj">
+      <Project>{31f2aa92-9474-48a8-971d-35cbcd77ca69}</Project>
+      <Name>Smart.Constants</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Smart.DataAccessWrapper\Smart.DataAccessWrapper.csproj">
+      <Project>{4bc14d34-ccc8-40eb-88e9-4d42b8905d07}</Project>
+      <Name>Smart.DataAccessWrapper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

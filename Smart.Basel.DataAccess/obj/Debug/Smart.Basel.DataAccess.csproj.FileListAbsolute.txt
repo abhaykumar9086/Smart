@@ -1,0 +1,13 @@
+E:\Development\EXL\Smart\Smart.Basel.DataAccess\bin\Debug\Smart.Basel.DataAccess.dll
+E:\Development\EXL\Smart\Smart.Basel.DataAccess\bin\Debug\Smart.Basel.DataAccess.pdb
+E:\Development\EXL\Smart\Smart.Basel.DataAccess\bin\Debug\Smart.Basel.DataAccess.dll.CodeAnalysisLog.xml
+E:\Development\EXL\Smart\Smart.Basel.DataAccess\bin\Debug\Smart.Basel.DataAccess.dll.lastcodeanalysissucceeded
+E:\Development\EXL\Smart\Smart.Basel.DataAccess\bin\Debug\Smart.Constants.dll
+E:\Development\EXL\Smart\Smart.Basel.DataAccess\bin\Debug\Smart.DataAccessWrapper.dll
+E:\Development\EXL\Smart\Smart.Basel.DataAccess\bin\Debug\Smart.Constants.pdb
+E:\Development\EXL\Smart\Smart.Basel.DataAccess\bin\Debug\Smart.DataAccessWrapper.pdb
+E:\Development\EXL\Smart\Smart.Basel.DataAccess\bin\Debug\de-DE\Smart.Constants.resources.dll
+E:\Development\EXL\Smart\Smart.Basel.DataAccess\bin\Debug\fr-FR\Smart.Constants.resources.dll
+E:\Development\EXL\Smart\Smart.Basel.DataAccess\obj\Debug\Smart.Basel.DataAccess.csprojResolveAssemblyReference.cache
+E:\Development\EXL\Smart\Smart.Basel.DataAccess\obj\Debug\Smart.Basel.DataAccess.dll
+E:\Development\EXL\Smart\Smart.Basel.DataAccess\obj\Debug\Smart.Basel.DataAccess.pdb

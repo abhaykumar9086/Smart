@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Index</title>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<style>
+		html,body {
+			margin: 0; padding: 0px;
+			height:100%; 
+			min-height:100%;
+			background-color: rgb(233,232,220);
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			color: black;
+		}
+
+		body {font-size:75%;position:relative; margin-top:-1px; border-style: solid solid solid solid;	border-color: rgb(172,168,153);	border-width: 0px 0px 1px 0px;}
+		a { text-decoration:none; color:#06c }
+		form {padding:5px; margin:0px;}
+	</style>
+</head>
+<body style="direction: ltr;">
+	<form>
+	Look for:<br /><input style="width:100%" onKeyDown="check_input(this.value,get_match)" onKeyUp="check_input(this.value,get_match)"/>
+	</form>
+
+	<script>
+		var words = new Array(
+"ActualDefaultRate Property","ActualEad Property {Smart.Basel.DataAccess.Models.EadAccuracy}","ActualEad Property {Smart.Basel.DataAccess.Models.LgdLossShortfall}","ActualLgd Property {Smart.Basel.DataAccess.Models.LgdAccuracy}","ActualLgd Property {Smart.Basel.DataAccess.Models.LgdLossShortfall}","AssetSubClass Property {Smart.Basel.DataAccess.Models.EadAccuracy}","AssetSubClass Property {Smart.Basel.DataAccess.Models.EadPsi}","AssetSubClass Property {Smart.Basel.DataAccess.Models.PdBalanceSummary}","AssetSubClass Property {Smart.Basel.DataAccess.Models.PdKsCalculation}","AssetSubClass Property {Smart.Basel.DataAccess.Models.PdMonitoringItem}","AssetSubClass Property {Smart.Basel.DataAccess.Models.PdPortfolioDefaultRate}","AssetSubClass Property {Smart.Basel.DataAccess.Models.PdPsi}","AvgLraPd Property","Category Property","Count Property {Smart.Basel.DataAccess.Models.LgdAccuracy}","Count Property {Smart.Basel.DataAccess.Models.LgdLossShortfall}","CountAll Property {Smart.Basel.DataAccess.Models.EadDqChar}","CountAll Property {Smart.Basel.DataAccess.Models.EadDqNum}","CountAll Property {Smart.Basel.DataAccess.Models.LgdDqChar}","CountAll Property {Smart.Basel.DataAccess.Models.LgdDqNum}","CountAll Property {Smart.Basel.DataAccess.Models.PdDqChar}","CountAll Property {Smart.Basel.DataAccess.Models.PdDqNum}","CountMissing Property {Smart.Basel.DataAccess.Models.EadDqChar}","CountMissing Property {Smart.Basel.DataAccess.Models.EadDqNum}","CountMissing Property {Smart.Basel.DataAccess.Models.LgdDqChar}","CountMissing Property {Smart.Basel.DataAccess.Models.LgdDqNum}","CountMissing Property {Smart.Basel.DataAccess.Models.PdDqChar}","CountMissing Property {Smart.Basel.DataAccess.Models.PdDqNum}","Csi Property","CumDef Property","CumDefRt Property","CumNdef Property","CumNdefRt Property","DefaultRate Property","DevCount Property","DevPercentage Property","Ead Property","EadAccuracy Class","EadAccuracyManager Class","EadDqChar Class","EadDqCharManager Class","EadDqNum Class","EadDqNumManager Class","EadProductSegment Property {Smart.Basel.DataAccess.Models.EadAccuracy}","EadProductSegment Property {Smart.Basel.DataAccess.Models.EadPsi}","EadPsi Class","EadPsiManager Class","Exposure Property {Smart.Basel.DataAccess.Models.EadPsi}","Exposure Property {Smart.Basel.DataAccess.Models.PdBalanceSummary}","GiniScore Property","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.EadAccuracyManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.EadDqCharManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.EadDqNumManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.EadPsiManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.LgdAccuracyManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.LgdDqCharManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.LgdDqNumManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.LgdLossShortfallManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.PdBalanceSummaryManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.PdCombinedOutputManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.PdCsiManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.PdDqCharManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.PdDqNumManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.PdKsCalculationManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.PdMonitoringItemManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.PdPortfolioDefaultRateManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.PdPsiManager}","InsertRecordAsync Method {Smart.Basel.DataAccess.BusinessObjects.PdRwaSummaryManager}","KsContri Property","KsScore Property","LgdAccuracy Class","LgdAccuracyManager Class","LgdDqChar Class","LgdDqCharManager Class","LgdDqNum Class","LgdDqNumManager Class","LgdLossShortfall Class","LgdLossShortfallManager Class","LgdProductSegment Property {Smart.Basel.DataAccess.Models.LgdAccuracy}","LgdProductSegment Property {Smart.Basel.DataAccess.Models.LgdLossShortfall}","LraPd1 Property","LraPdBand Property","MaxLraPd Property","MinLraPd Property","Ndefs Property","NnonDefs Property","Nobs Property","NumberOfAccounts Property {Smart.Basel.DataAccess.Models.EadPsi}","NumberOfAccounts Property {Smart.Basel.DataAccess.Models.PdBalanceSummary}","NumberOfAccounts Property {Smart.Basel.DataAccess.Models.PdMonitoringItem}","NumberOfAccounts Property {Smart.Basel.DataAccess.Models.PdPortfolioDefaultRate}","NumberOfAccounts Property {Smart.Basel.DataAccess.Models.PdPsi}","NumberOfDefaults Property {Smart.Basel.DataAccess.Models.PdMonitoringItem}","NumberOfDefaults Property {Smart.Basel.DataAccess.Models.PdPortfolioDefaultRate}","ObsDefRt Property","PdBalanceSummary Class","PdBalanceSummaryManager Class","PdCombinedOutput Class","PdCombinedOutputManager Class","PdCsi Class","PdCsiManager Class","PdDqChar Class","PdDqCharManager Class","PdDqNum Class","PdDqNumManager Class","PdKsCalculation Class","PdKsCalculationManager Class","PdMonitoringItem Class","PdMonitoringItemManager Class","PdPortfolioDefaultRate Class","PdPortfolioDefaultRateManager Class","PdPsi Class","PdPsiManager Class","PdRwaSummary Class","PdRwaSummaryManager Class","PercentageMissing Property {Smart.Basel.DataAccess.Models.EadDqChar}","PercentageMissing Property {Smart.Basel.DataAccess.Models.EadDqNum}","PercentageMissing Property {Smart.Basel.DataAccess.Models.LgdDqChar}","PercentageMissing Property {Smart.Basel.DataAccess.Models.LgdDqNum}","PercentageMissing Property {Smart.Basel.DataAccess.Models.PdDqChar}","PercentageMissing Property {Smart.Basel.DataAccess.Models.PdDqNum}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.EadAccuracy}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.EadDqChar}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.EadDqNum}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.EadPsi}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.LgdAccuracy}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.LgdDqChar}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.LgdDqNum}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.LgdLossShortfall}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.PdBalanceSummary}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.PdCombinedOutput}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.PdCsi}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.PdDqChar}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.PdDqNum}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.PdMonitoringItem}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.PdPortfolioDefaultRate}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.PdPsi}","PeriodEndDate Property {Smart.Basel.DataAccess.Models.PdRwaSummary}","PitPd1 Property","PredictedLgd Property {Smart.Basel.DataAccess.Models.LgdAccuracy}","PredictedLgd Property {Smart.Basel.DataAccess.Models.LgdLossShortfall}","Product Property","SegmentName Property {Smart.Basel.DataAccess.Models.PdCombinedOutput}","SegmentName Property {Smart.Basel.DataAccess.Models.PdKsCalculation}","SegmentName Property {Smart.Basel.DataAccess.Models.PdMonitoringItem}","SegmentName Property {Smart.Basel.DataAccess.Models.PdPsi}","SegmentName Property {Smart.Basel.DataAccess.Models.PdRwaSummary}","Smart.Basel.DataAccess Reference","Smart.Basel.DataAccess.BusinessObjects Namespace","Smart.Basel.DataAccess.Models Namespace","TotalDef Property","TotalNdef Property","TotalRwa Property","ValidationCount Property","ValidationPercentage Property","VariableName Property {Smart.Basel.DataAccess.Models.EadDqChar}","VariableName Property {Smart.Basel.DataAccess.Models.EadDqNum}","VariableName Property {Smart.Basel.DataAccess.Models.LgdDqChar}","VariableName Property {Smart.Basel.DataAccess.Models.LgdDqNum}","VariableName Property {Smart.Basel.DataAccess.Models.PdCsi}","VariableName Property {Smart.Basel.DataAccess.Models.PdDqChar}","VariableName Property {Smart.Basel.DataAccess.Models.PdDqNum}"
+		);
+		
+		
+		var oldHighlight = 0;
+		var oldKey = "";
+		
+		function get_match(text) {
+		    var ltext = text.toLowerCase();
+		    for(i in words) {
+		        if(words[i].toLowerCase().indexOf(ltext) == "0") {
+		            return words[i];
+		        }
+		    }
+		    return "";
+		}
+		
+		function highlight(keyword) {
+		    if(oldHighlight) oldHighlight.className = "";
+		    var el = parent.frames['zindex'].document.getElementById("w_"+keyword);
+		    el.className="highlighted";
+		    oldHighlight = el;
+		}
+		
+		function check_input(text, matchfun) {
+		    if(text!=oldKey) {
+		        var keyword = matchfun(text);
+		        if(keyword) {       
+		            highlight(keyword);
+		            parent.frames['zindex'].document.getElementById('w_'+keyword).scrollIntoView();
+		        }
+		        oldKey = text;
+		    }
+		}
+	</script>
+</body>
+</html>
+
