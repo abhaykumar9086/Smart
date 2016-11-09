@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.DataAccessWrapper", "Smart.DataAccessWrapper\Smart.DataAccessWrapper.csproj", "{4BC14D34-CCC8-40EB-88E9-4D42B8905D07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Basel.DataAccess", "Smart.Basel.DataAccess\Smart.Basel.DataAccess.csproj", "{1D1490B0-E6AE-43CF-B22D-8F6C4FA655C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Constants", "Smart.Constants\Smart.Constants.csproj", "{31F2AA92-9474-48A8-971D-35CBCD77CA69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Tester", "Smart.Tester\Smart.Tester.csproj", "{7C4E3F09-3FDD-42D3-A101-247C4D516DDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.OfficeOpenXmlWrapper", "Smart.OfficeOpenXmlWrapper\Smart.OfficeOpenXmlWrapper.csproj", "{5354F2A4-2C3F-4EF0-B1DF-504068CB0AD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.WebApp.CurrentGen", "Smart.WebApp.CurrentGen\Smart.WebApp.CurrentGen.csproj", "{B95A59AF-E7A2-4420-AD4A-F96FB5A010F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BC14D34-CCC8-40EB-88E9-4D42B8905D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC14D34-CCC8-40EB-88E9-4D42B8905D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC14D34-CCC8-40EB-88E9-4D42B8905D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC14D34-CCC8-40EB-88E9-4D42B8905D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D1490B0-E6AE-43CF-B22D-8F6C4FA655C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D1490B0-E6AE-43CF-B22D-8F6C4FA655C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D1490B0-E6AE-43CF-B22D-8F6C4FA655C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D1490B0-E6AE-43CF-B22D-8F6C4FA655C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F2AA92-9474-48A8-971D-35CBCD77CA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F2AA92-9474-48A8-971D-35CBCD77CA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F2AA92-9474-48A8-971D-35CBCD77CA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F2AA92-9474-48A8-971D-35CBCD77CA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4E3F09-3FDD-42D3-A101-247C4D516DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4E3F09-3FDD-42D3-A101-247C4D516DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4E3F09-3FDD-42D3-A101-247C4D516DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4E3F09-3FDD-42D3-A101-247C4D516DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5354F2A4-2C3F-4EF0-B1DF-504068CB0AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5354F2A4-2C3F-4EF0-B1DF-504068CB0AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5354F2A4-2C3F-4EF0-B1DF-504068CB0AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5354F2A4-2C3F-4EF0-B1DF-504068CB0AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95A59AF-E7A2-4420-AD4A-F96FB5A010F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95A59AF-E7A2-4420-AD4A-F96FB5A010F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95A59AF-E7A2-4420-AD4A-F96FB5A010F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95A59AF-E7A2-4420-AD4A-F96FB5A010F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
