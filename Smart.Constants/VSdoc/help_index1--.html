@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Index</title>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<style>
+		html,body {
+			margin: 0; padding: 0px;
+			height:100%; 
+			min-height:100%;
+			background-color: rgb(233,232,220);
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			color: black;
+		}
+
+		body {font-size:75%;position:relative; margin-top:-1px; border-style: solid solid solid solid;	border-color: rgb(172,168,153);	border-width: 0px 0px 1px 0px;}
+		a { text-decoration:none; color:#06c }
+		form {padding:5px; margin:0px;}
+	</style>
+</head>
+<body style="direction: ltr;">
+	<form>
+	Look for:<br /><input style="width:100%" onKeyDown="check_input(this.value,get_match)" onKeyUp="check_input(this.value,get_match)"/>
+	</form>
+
+	<script>
+		var words = new Array(
+"APP_SETTINGS_IMPORT_DATE_FORMAT Field","APP_SETTINGS_REG_EX_EAD_ACCURACY Field","APP_SETTINGS_REG_EX_EAD_DQ_CHAR Field","APP_SETTINGS_REG_EX_EAD_DQ_NUM Field","APP_SETTINGS_REG_EX_EAD_PSI Field","APP_SETTINGS_REG_EX_LGD_ACCURACY Field","APP_SETTINGS_REG_EX_LGD_DQ_CHAR Field","APP_SETTINGS_REG_EX_LGD_DQ_NUM Field","APP_SETTINGS_REG_EX_LGD_LOSS_SHORTFALL Field","APP_SETTINGS_REG_EX_PD_BALANCE_SUMMARY Field","APP_SETTINGS_REG_EX_PD_COMBINED_OUTPUT Field","APP_SETTINGS_REG_EX_PD_CSI Field","APP_SETTINGS_REG_EX_PD_DQ_CHAR Field","APP_SETTINGS_REG_EX_PD_DQ_NUM Field","APP_SETTINGS_REG_EX_PD_KS_CALCULATION Field","APP_SETTINGS_REG_EX_PD_MONITORING_ITEM Field","APP_SETTINGS_REG_EX_PD_PORTFOLIO_DEFAULT_RATE Field","APP_SETTINGS_REG_EX_PD_PSI Field","APP_SETTINGS_REG_EX_PD_RWA_SUMMARY Field","ApplicationConstants Class","BaselDataAccessConstants Class","CONNECTION_STRING_NAME Field","DEFAULT_CONNECTION_STRING_NAME Field","DataAccessWrapperConstants Class","EXCEPTION_MESSAGE_ADD_PARAMETER_FAILURE Property","EXCEPTION_MESSAGE_CANNOT_CREATE_COMMAND Property","EXCEPTION_MESSAGE_CANNOT_CREATE_CONNECTION Property","EXCEPTION_MESSAGE_CANNOT_OPEN_CONNECTION Property","EXCEPTION_MESSAGE_CONNECTION_STRING_MISSING Property","EXCEPTION_MESSAGE_REQUIRES_INITIALIZED_CONNECTION Property","PARAM_ACTUAL_DEFAULT_RATE Field","PARAM_ACTUAL_EAD Field","PARAM_ACTUAL_LGD Field","PARAM_ASSET_SUB_CLASS Field","PARAM_AVG_LRA_PD Field","PARAM_CATEGORY Field","PARAM_COUNT Field","PARAM_COUNT_ALL Field","PARAM_COUNT_MISSING Field","PARAM_CSI Field","PARAM_CUM_DEF Field","PARAM_CUM_DEF_RT Field","PARAM_CUM_NDEF Field","PARAM_CUM_NDEF_RT Field","PARAM_DEFAULT_RATE Field","PARAM_DEV_COUNT Field","PARAM_DEV_PERCENTAGE Field","PARAM_EAD Field","PARAM_EAD_PRODUCT_SEGMENT Field","PARAM_EXPOSURE Field","PARAM_GINI_SCORE Field","PARAM_KS_CONTRI Field","PARAM_KS_SCORE Field","PARAM_LGD_PRODUCT_SEGMENT Field","PARAM_LRA_PD_1 Field","PARAM_LRA_PD_BAND Field","PARAM_MAX_LRA_PD Field","PARAM_MIN_LRA_PD Field","PARAM_NDEFS Field","PARAM_NNON_DEFS Field","PARAM_NOBS Field","PARAM_NUMBER_OF_ACCOUNTS Field","PARAM_NUMBER_OF_DEFAULTS Field","PARAM_OBS_DEF_RT Field","PARAM_PD_PRODUCT_SEGMENT Field","PARAM_PERCENTAGE_MISSING Field","PARAM_PERIOD_END_DATE Field","PARAM_PIT_PD_1 Field","PARAM_PREDICTED_LGD Field","PARAM_PRODUCT Field","PARAM_SEGMENT_ACTUAL_LGD Field","PARAM_SEGMENT_COUNTS Field","PARAM_SEGMENT_NAME Field","PARAM_TOTAL_DEF Field","PARAM_TOTAL_NDEF Field","PARAM_TOTAL_RWA Field","PARAM_VALIDATION_COUNT Field","PARAM_VALIDATION_PERCENTAGE Field","PARAM_VARIABLE_NAME Field","SP_ADD_EAD_ACCURACY Field","SP_ADD_EAD_DQ_CHAR Field","SP_ADD_EAD_DQ_NUM Field","SP_ADD_EAD_PSI Field","SP_ADD_LGD_ACCURACY Field","SP_ADD_LGD_DQ_CHAR Field","SP_ADD_LGD_DQ_NUM Field","SP_ADD_LGD_LOSS_SHORTFALL Field","SP_ADD_PD_BALANCE_SUMMARY Field","SP_ADD_PD_COMBINED_OUTPUT Field","SP_ADD_PD_CSI Field","SP_ADD_PD_DQ_CHAR Field","SP_ADD_PD_DQ_NUM Field","SP_ADD_PD_KS_CALCULATION Field","SP_ADD_PD_MONITORING_ITEM Field","SP_ADD_PD_PORTFOLIO_DEFAULT_RATE Field","SP_ADD_PD_PSI Field","SP_ADD_PD_RWA_SUMMARY Field","Smart.Constants Namespace","Smart.Constants Reference"
+		);
+		
+		
+		var oldHighlight = 0;
+		var oldKey = "";
+		
+		function get_match(text) {
+		    var ltext = text.toLowerCase();
+		    for(i in words) {
+		        if(words[i].toLowerCase().indexOf(ltext) == "0") {
+		            return words[i];
+		        }
+		    }
+		    return "";
+		}
+		
+		function highlight(keyword) {
+		    if(oldHighlight) oldHighlight.className = "";
+		    var el = parent.frames['zindex'].document.getElementById("w_"+keyword);
+		    el.className="highlighted";
+		    oldHighlight = el;
+		}
+		
+		function check_input(text, matchfun) {
+		    if(text!=oldKey) {
+		        var keyword = matchfun(text);
+		        if(keyword) {       
+		            highlight(keyword);
+		            parent.frames['zindex'].document.getElementById('w_'+keyword).scrollIntoView();
+		        }
+		        oldKey = text;
+		    }
+		}
+	</script>
+</body>
+</html>
+

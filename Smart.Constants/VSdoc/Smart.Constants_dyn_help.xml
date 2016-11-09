@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="Smart.Constants" Title="Smart.Constants Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_IMPORT_DATE_FORMAT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000014.html" LinkGroup="Smart.Constants">APP_SETTINGS_IMPORT_DATE_FORMAT Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_EAD_ACCURACY" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000002.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_EAD_ACCURACY Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_EAD_DQ_CHAR" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000003.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_EAD_DQ_CHAR Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_EAD_DQ_NUM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000004.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_EAD_DQ_NUM Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_EAD_PSI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000005.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_EAD_PSI Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_LGD_ACCURACY" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000006.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_LGD_ACCURACY Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_LGD_DQ_CHAR" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000007.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_LGD_DQ_CHAR Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_LGD_DQ_NUM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000008.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_LGD_DQ_NUM Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_LGD_LOSS_SHORTFALL" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000009.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_LGD_LOSS_SHORTFALL Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_PD_BALANCE_SUMMARY" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000000A.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_PD_BALANCE_SUMMARY Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_PD_COMBINED_OUTPUT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000000B.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_PD_COMBINED_OUTPUT Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_PD_CSI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000000C.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_PD_CSI Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_PD_DQ_CHAR" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000000D.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_PD_DQ_CHAR Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_PD_DQ_NUM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000000E.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_PD_DQ_NUM Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_PD_KS_CALCULATION" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000000F.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_PD_KS_CALCULATION Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_PD_MONITORING_ITEM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000010.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_PD_MONITORING_ITEM Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_PD_PORTFOLIO_DEFAULT_RATE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000011.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_PD_PORTFOLIO_DEFAULT_RATE Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_PD_PSI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000012.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_PD_PSI Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.APP_SETTINGS_REG_EX_PD_RWA_SUMMARY" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000013.html" LinkGroup="Smart.Constants">APP_SETTINGS_REG_EX_PD_RWA_SUMMARY Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000001.html" LinkGroup="Smart.Constants">ApplicationConstants Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000017.html" LinkGroup="Smart.Constants">BaselDataAccessConstants Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.CONNECTION_STRING_NAME" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000015.html" LinkGroup="Smart.Constants">CONNECTION_STRING_NAME Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.ApplicationConstants.DEFAULT_CONNECTION_STRING_NAME" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000016.html" LinkGroup="Smart.Constants">DEFAULT_CONNECTION_STRING_NAME Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.DataAccessWrapperConstants" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000005B.html" LinkGroup="Smart.Constants">DataAccessWrapperConstants Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.DataAccessWrapperConstants.EXCEPTION_MESSAGE_ADD_PARAMETER_FAILURE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000061.html" LinkGroup="Smart.Constants">EXCEPTION_MESSAGE_ADD_PARAMETER_FAILURE Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.DataAccessWrapperConstants.EXCEPTION_MESSAGE_CANNOT_CREATE_COMMAND" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000005E.html" LinkGroup="Smart.Constants">EXCEPTION_MESSAGE_CANNOT_CREATE_COMMAND Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.DataAccessWrapperConstants.EXCEPTION_MESSAGE_CANNOT_CREATE_CONNECTION" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000005D.html" LinkGroup="Smart.Constants">EXCEPTION_MESSAGE_CANNOT_CREATE_CONNECTION Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.DataAccessWrapperConstants.EXCEPTION_MESSAGE_CANNOT_OPEN_CONNECTION" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000005F.html" LinkGroup="Smart.Constants">EXCEPTION_MESSAGE_CANNOT_OPEN_CONNECTION Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.DataAccessWrapperConstants.EXCEPTION_MESSAGE_CONNECTION_STRING_MISSING" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000005C.html" LinkGroup="Smart.Constants">EXCEPTION_MESSAGE_CONNECTION_STRING_MISSING Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.DataAccessWrapperConstants.EXCEPTION_MESSAGE_REQUIRES_INITIALIZED_CONNECTION" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000060.html" LinkGroup="Smart.Constants">EXCEPTION_MESSAGE_REQUIRES_INITIALIZED_CONNECTION Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_ACTUAL_DEFAULT_RATE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000057.html" LinkGroup="Smart.Constants">PARAM_ACTUAL_DEFAULT_RATE Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_ACTUAL_EAD" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000031.html" LinkGroup="Smart.Constants">PARAM_ACTUAL_EAD Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_ACTUAL_LGD" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000038.html" LinkGroup="Smart.Constants">PARAM_ACTUAL_LGD Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_ASSET_SUB_CLASS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000039.html" LinkGroup="Smart.Constants">PARAM_ASSET_SUB_CLASS Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_AVG_LRA_PD" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000048.html" LinkGroup="Smart.Constants">PARAM_AVG_LRA_PD Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_CATEGORY" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000003C.html" LinkGroup="Smart.Constants">PARAM_CATEGORY Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_COUNT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000036.html" LinkGroup="Smart.Constants">PARAM_COUNT Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_COUNT_ALL" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000002B.html" LinkGroup="Smart.Constants">PARAM_COUNT_ALL Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_COUNT_MISSING" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000002C.html" LinkGroup="Smart.Constants">PARAM_COUNT_MISSING Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_CSI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000041.html" LinkGroup="Smart.Constants">PARAM_CSI Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_CUM_DEF" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000004D.html" LinkGroup="Smart.Constants">PARAM_CUM_DEF Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_CUM_DEF_RT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000051.html" LinkGroup="Smart.Constants">PARAM_CUM_DEF_RT Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_CUM_NDEF" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000004E.html" LinkGroup="Smart.Constants">PARAM_CUM_NDEF Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_CUM_NDEF_RT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000052.html" LinkGroup="Smart.Constants">PARAM_CUM_NDEF_RT Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_DEFAULT_RATE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000058.html" LinkGroup="Smart.Constants">PARAM_DEFAULT_RATE Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_DEV_COUNT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000003D.html" LinkGroup="Smart.Constants">PARAM_DEV_COUNT Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_DEV_PERCENTAGE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000003E.html" LinkGroup="Smart.Constants">PARAM_DEV_PERCENTAGE Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_EAD" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000030.html" LinkGroup="Smart.Constants">PARAM_EAD Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_EAD_PRODUCT_SEGMENT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000003A.html" LinkGroup="Smart.Constants">PARAM_EAD_PRODUCT_SEGMENT Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_EXPOSURE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000033.html" LinkGroup="Smart.Constants">PARAM_EXPOSURE Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_GINI_SCORE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000044.html" LinkGroup="Smart.Constants">PARAM_GINI_SCORE Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_KS_CONTRI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000053.html" LinkGroup="Smart.Constants">PARAM_KS_CONTRI Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_KS_SCORE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000043.html" LinkGroup="Smart.Constants">PARAM_KS_SCORE Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_LGD_PRODUCT_SEGMENT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000003B.html" LinkGroup="Smart.Constants">PARAM_LGD_PRODUCT_SEGMENT Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_LRA_PD_1" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000055.html" LinkGroup="Smart.Constants">PARAM_LRA_PD_1 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_LRA_PD_BAND" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000045.html" LinkGroup="Smart.Constants">PARAM_LRA_PD_BAND Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_MAX_LRA_PD" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000047.html" LinkGroup="Smart.Constants">PARAM_MAX_LRA_PD Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_MIN_LRA_PD" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000046.html" LinkGroup="Smart.Constants">PARAM_MIN_LRA_PD Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_NDEFS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000004A.html" LinkGroup="Smart.Constants">PARAM_NDEFS Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_NNON_DEFS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000004B.html" LinkGroup="Smart.Constants">PARAM_NNON_DEFS Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_NOBS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000049.html" LinkGroup="Smart.Constants">PARAM_NOBS Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_NUMBER_OF_ACCOUNTS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000002F.html" LinkGroup="Smart.Constants">PARAM_NUMBER_OF_ACCOUNTS Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_NUMBER_OF_DEFAULTS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000054.html" LinkGroup="Smart.Constants">PARAM_NUMBER_OF_DEFAULTS Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_OBS_DEF_RT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000004C.html" LinkGroup="Smart.Constants">PARAM_OBS_DEF_RT Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_PD_PRODUCT_SEGMENT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000059.html" LinkGroup="Smart.Constants">PARAM_PD_PRODUCT_SEGMENT Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_PERCENTAGE_MISSING" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000002E.html" LinkGroup="Smart.Constants">PARAM_PERCENTAGE_MISSING Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_PERIOD_END_DATE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000002D.html" LinkGroup="Smart.Constants">PARAM_PERIOD_END_DATE Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_PIT_PD_1" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000056.html" LinkGroup="Smart.Constants">PARAM_PIT_PD_1 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_PREDICTED_LGD" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000037.html" LinkGroup="Smart.Constants">PARAM_PREDICTED_LGD Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_PRODUCT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000042.html" LinkGroup="Smart.Constants">PARAM_PRODUCT Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_SEGMENT_ACTUAL_LGD" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000035.html" LinkGroup="Smart.Constants">PARAM_SEGMENT_ACTUAL_LGD Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_SEGMENT_COUNTS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000034.html" LinkGroup="Smart.Constants">PARAM_SEGMENT_COUNTS Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_SEGMENT_NAME" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000032.html" LinkGroup="Smart.Constants">PARAM_SEGMENT_NAME Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_TOTAL_DEF" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000004F.html" LinkGroup="Smart.Constants">PARAM_TOTAL_DEF Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_TOTAL_NDEF" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000050.html" LinkGroup="Smart.Constants">PARAM_TOTAL_NDEF Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_TOTAL_RWA" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000005A.html" LinkGroup="Smart.Constants">PARAM_TOTAL_RWA Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_VALIDATION_COUNT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000003F.html" LinkGroup="Smart.Constants">PARAM_VALIDATION_COUNT Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_VALIDATION_PERCENTAGE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000040.html" LinkGroup="Smart.Constants">PARAM_VALIDATION_PERCENTAGE Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.PARAM_VARIABLE_NAME" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000002A.html" LinkGroup="Smart.Constants">PARAM_VARIABLE_NAME Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_EAD_ACCURACY" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000018.html" LinkGroup="Smart.Constants">SP_ADD_EAD_ACCURACY Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_EAD_DQ_CHAR" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000019.html" LinkGroup="Smart.Constants">SP_ADD_EAD_DQ_CHAR Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_EAD_DQ_NUM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000001A.html" LinkGroup="Smart.Constants">SP_ADD_EAD_DQ_NUM Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_EAD_PSI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000001B.html" LinkGroup="Smart.Constants">SP_ADD_EAD_PSI Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_LGD_ACCURACY" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000001C.html" LinkGroup="Smart.Constants">SP_ADD_LGD_ACCURACY Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_LGD_DQ_CHAR" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000001D.html" LinkGroup="Smart.Constants">SP_ADD_LGD_DQ_CHAR Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_LGD_DQ_NUM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000001E.html" LinkGroup="Smart.Constants">SP_ADD_LGD_DQ_NUM Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_LGD_LOSS_SHORTFALL" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_000000000000001F.html" LinkGroup="Smart.Constants">SP_ADD_LGD_LOSS_SHORTFALL Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_PD_BALANCE_SUMMARY" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000020.html" LinkGroup="Smart.Constants">SP_ADD_PD_BALANCE_SUMMARY Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_PD_COMBINED_OUTPUT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000021.html" LinkGroup="Smart.Constants">SP_ADD_PD_COMBINED_OUTPUT Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_PD_CSI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000022.html" LinkGroup="Smart.Constants">SP_ADD_PD_CSI Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_PD_DQ_CHAR" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000028.html" LinkGroup="Smart.Constants">SP_ADD_PD_DQ_CHAR Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_PD_DQ_NUM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000029.html" LinkGroup="Smart.Constants">SP_ADD_PD_DQ_NUM Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_PD_KS_CALCULATION" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000023.html" LinkGroup="Smart.Constants">SP_ADD_PD_KS_CALCULATION Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_PD_MONITORING_ITEM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000024.html" LinkGroup="Smart.Constants">SP_ADD_PD_MONITORING_ITEM Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_PD_PORTFOLIO_DEFAULT_RATE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000025.html" LinkGroup="Smart.Constants">SP_ADD_PD_PORTFOLIO_DEFAULT_RATE Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_PD_PSI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000026.html" LinkGroup="Smart.Constants">SP_ADD_PD_PSI Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants.BaselDataAccessConstants.SP_ADD_PD_RWA_SUMMARY" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000027.html" LinkGroup="Smart.Constants">SP_ADD_PD_RWA_SUMMARY Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000000.html" LinkGroup="Smart.Constants">Smart.Constants Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Constants Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Constants.chm::/topic_0000000000000062.html" LinkGroup="Smart.Constants">Smart.Constants Reference</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

@@ -1,0 +1,626 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>Menu</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+<style>
+html { font-family:sans-serif; background-color:#ffffff; font-size:75%;}
+a { text-decoration:none; color:rgb(0,51,102) }
+.header a { color:#000!important }
+.item { border:solid 0px #000; padding:0.25em; margin-left:1em }
+.header, .leaf { cursor:pointer; padding-left:19px; min-height:18px; line-height:18px; white-space:nowrap;}
+.closed { background:url(bookC.gif) no-repeat }
+.open { background:url(bookE.gif) no-repeat }
+.leaf { background:url(leaf.gif) no-repeat }
+</style>
+
+<script>
+function toggle(idsub,elhead) {
+    var elsub = document.getElementById(idsub);
+    if(elsub.style.display=="block")
+        elsub.style.display = "none";
+    else
+        elsub.style.display="block";
+        
+    if(elhead.className=="header open")
+        elhead.className = "header closed";
+    else
+        elhead.className = "header open";
+}
+
+function expandLinkInToc(url) {
+	var link = findLink(url);
+	//alert(link);
+	//alert(link.innerHTML);
+	if(!isElementVisible(link)) {
+		expandElementAndParents(link);
+	}
+	link.scrollIntoView(true);
+	link.focus();
+}
+
+function expandElementAndParents(elm) {
+	if(elm.style) {
+		if(elm.style.display=="none") {
+			//elm is container with subtopics
+			elm.style.display="block";
+			// process also chapter header
+			var id = elm.getAttribute("id");
+			id = id.substring(1);
+			var elHead = document.getElementById(id);
+			if(elHead.className=="header closed") {
+				elHead.className = "header open";
+			}
+		}
+	}
+	// process parents
+	if (elm.parentNode) {
+		expandElementAndParents(elm.parentNode);
+	}
+}
+
+function findLink(url) {
+	var links = document.links;
+	var i;
+	for (i=0; i<links.length; i++) {
+		if (links[i].href == url) {
+			return links[i];
+		}		
+	}
+	return null;
+} 
+
+function isElementVisible(elm) {
+	if(elm.style) {
+		if(elm.style.display == "none") {
+			return false;
+		}
+	}
+	if (elm.parentNode) {
+		return isElementVisible(elm.parentNode);
+	} else {
+		return true;
+	}
+}
+</script>
+
+</head>
+
+<body>
+    
+						 		<div id="1" class="header closed" onclick="toggle('c1',this)">
+   
+  		<a href="topic_0000000000000062.html" target="vbdocright">Smart.Constants Reference</a>
+ 
+		</div>
+     <div id="c1" class="item" style="display:none">
+		
+     
+
+       <div id="2" class="header closed" onclick="toggle('c2',this)">
+    <a href="topic_0000000000000000.html" target="vbdocright">Smart.Constants Namespace</a>
+    </div>
+    <div id="c2" class="item" style="display:none">
+		
+
+						    <div id="3" class="header closed" onclick="toggle('c3',this)">
+    <a href="topic_0000000000000001.html" target="vbdocright">ApplicationConstants Class</a>
+    </div>
+    <div id="c3" class="item" style="display:none">
+		
+ 		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="leaf"><a href="topic_0000000000000001_members--.html" target="vbdocright">ApplicationConstants Members</a></div>
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="4" class="header closed" onclick="toggle('c4',this)">
+    <a href="topic_0000000000000001_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c4" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="5" class="header closed" onclick="toggle('c5',this)">
+    <a href="topic_0000000000000001_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c5" class="item" style="display:none">
+		
+						  <div class="leaf"><a href="topic_0000000000000014.html" target="vbdocright">APP_SETTINGS_IMPORT_DATE_FORMAT Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000002.html" target="vbdocright">APP_SETTINGS_REG_EX_EAD_ACCURACY Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000003.html" target="vbdocright">APP_SETTINGS_REG_EX_EAD_DQ_CHAR Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000004.html" target="vbdocright">APP_SETTINGS_REG_EX_EAD_DQ_NUM Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000005.html" target="vbdocright">APP_SETTINGS_REG_EX_EAD_PSI Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000006.html" target="vbdocright">APP_SETTINGS_REG_EX_LGD_ACCURACY Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000007.html" target="vbdocright">APP_SETTINGS_REG_EX_LGD_DQ_CHAR Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000008.html" target="vbdocright">APP_SETTINGS_REG_EX_LGD_DQ_NUM Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000009.html" target="vbdocright">APP_SETTINGS_REG_EX_LGD_LOSS_SHORTFALL Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000A.html" target="vbdocright">APP_SETTINGS_REG_EX_PD_BALANCE_SUMMARY Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000B.html" target="vbdocright">APP_SETTINGS_REG_EX_PD_COMBINED_OUTPUT Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000C.html" target="vbdocright">APP_SETTINGS_REG_EX_PD_CSI Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000D.html" target="vbdocright">APP_SETTINGS_REG_EX_PD_DQ_CHAR Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000E.html" target="vbdocright">APP_SETTINGS_REG_EX_PD_DQ_NUM Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000F.html" target="vbdocright">APP_SETTINGS_REG_EX_PD_KS_CALCULATION Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000010.html" target="vbdocright">APP_SETTINGS_REG_EX_PD_MONITORING_ITEM Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000011.html" target="vbdocright">APP_SETTINGS_REG_EX_PD_PORTFOLIO_DEFAULT_RATE Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000012.html" target="vbdocright">APP_SETTINGS_REG_EX_PD_PSI Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000013.html" target="vbdocright">APP_SETTINGS_REG_EX_PD_RWA_SUMMARY Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000015.html" target="vbdocright">CONNECTION_STRING_NAME Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000016.html" target="vbdocright">DEFAULT_CONNECTION_STRING_NAME Field</a></div>
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="6" class="header closed" onclick="toggle('c6',this)">
+    <a href="topic_0000000000000017.html" target="vbdocright">BaselDataAccessConstants Class</a>
+    </div>
+    <div id="c6" class="item" style="display:none">
+		
+ 		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="leaf"><a href="topic_0000000000000017_members--.html" target="vbdocright">BaselDataAccessConstants Members</a></div>
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="7" class="header closed" onclick="toggle('c7',this)">
+    <a href="topic_0000000000000017_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c7" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="8" class="header closed" onclick="toggle('c8',this)">
+    <a href="topic_0000000000000017_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c8" class="item" style="display:none">
+		
+						  <div class="leaf"><a href="topic_0000000000000057.html" target="vbdocright">PARAM_ACTUAL_DEFAULT_RATE Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000031.html" target="vbdocright">PARAM_ACTUAL_EAD Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000038.html" target="vbdocright">PARAM_ACTUAL_LGD Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000039.html" target="vbdocright">PARAM_ASSET_SUB_CLASS Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000048.html" target="vbdocright">PARAM_AVG_LRA_PD Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000003C.html" target="vbdocright">PARAM_CATEGORY Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000036.html" target="vbdocright">PARAM_COUNT Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000002B.html" target="vbdocright">PARAM_COUNT_ALL Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000002C.html" target="vbdocright">PARAM_COUNT_MISSING Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000041.html" target="vbdocright">PARAM_CSI Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000004D.html" target="vbdocright">PARAM_CUM_DEF Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000051.html" target="vbdocright">PARAM_CUM_DEF_RT Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000004E.html" target="vbdocright">PARAM_CUM_NDEF Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000052.html" target="vbdocright">PARAM_CUM_NDEF_RT Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000058.html" target="vbdocright">PARAM_DEFAULT_RATE Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000003D.html" target="vbdocright">PARAM_DEV_COUNT Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000003E.html" target="vbdocright">PARAM_DEV_PERCENTAGE Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000030.html" target="vbdocright">PARAM_EAD Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000003A.html" target="vbdocright">PARAM_EAD_PRODUCT_SEGMENT Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000033.html" target="vbdocright">PARAM_EXPOSURE Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000044.html" target="vbdocright">PARAM_GINI_SCORE Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000053.html" target="vbdocright">PARAM_KS_CONTRI Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000043.html" target="vbdocright">PARAM_KS_SCORE Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000003B.html" target="vbdocright">PARAM_LGD_PRODUCT_SEGMENT Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000055.html" target="vbdocright">PARAM_LRA_PD_1 Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000045.html" target="vbdocright">PARAM_LRA_PD_BAND Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000047.html" target="vbdocright">PARAM_MAX_LRA_PD Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000046.html" target="vbdocright">PARAM_MIN_LRA_PD Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000004A.html" target="vbdocright">PARAM_NDEFS Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000004B.html" target="vbdocright">PARAM_NNON_DEFS Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000049.html" target="vbdocright">PARAM_NOBS Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000002F.html" target="vbdocright">PARAM_NUMBER_OF_ACCOUNTS Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000054.html" target="vbdocright">PARAM_NUMBER_OF_DEFAULTS Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000004C.html" target="vbdocright">PARAM_OBS_DEF_RT Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000059.html" target="vbdocright">PARAM_PD_PRODUCT_SEGMENT Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000002E.html" target="vbdocright">PARAM_PERCENTAGE_MISSING Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000002D.html" target="vbdocright">PARAM_PERIOD_END_DATE Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000056.html" target="vbdocright">PARAM_PIT_PD_1 Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000037.html" target="vbdocright">PARAM_PREDICTED_LGD Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000042.html" target="vbdocright">PARAM_PRODUCT Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000035.html" target="vbdocright">PARAM_SEGMENT_ACTUAL_LGD Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000034.html" target="vbdocright">PARAM_SEGMENT_COUNTS Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000032.html" target="vbdocright">PARAM_SEGMENT_NAME Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000004F.html" target="vbdocright">PARAM_TOTAL_DEF Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000050.html" target="vbdocright">PARAM_TOTAL_NDEF Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000005A.html" target="vbdocright">PARAM_TOTAL_RWA Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000003F.html" target="vbdocright">PARAM_VALIDATION_COUNT Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000040.html" target="vbdocright">PARAM_VALIDATION_PERCENTAGE Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000002A.html" target="vbdocright">PARAM_VARIABLE_NAME Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000018.html" target="vbdocright">SP_ADD_EAD_ACCURACY Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000019.html" target="vbdocright">SP_ADD_EAD_DQ_CHAR Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000001A.html" target="vbdocright">SP_ADD_EAD_DQ_NUM Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000001B.html" target="vbdocright">SP_ADD_EAD_PSI Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000001C.html" target="vbdocright">SP_ADD_LGD_ACCURACY Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000001D.html" target="vbdocright">SP_ADD_LGD_DQ_CHAR Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000001E.html" target="vbdocright">SP_ADD_LGD_DQ_NUM Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000001F.html" target="vbdocright">SP_ADD_LGD_LOSS_SHORTFALL Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000020.html" target="vbdocright">SP_ADD_PD_BALANCE_SUMMARY Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000021.html" target="vbdocright">SP_ADD_PD_COMBINED_OUTPUT Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000022.html" target="vbdocright">SP_ADD_PD_CSI Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000028.html" target="vbdocright">SP_ADD_PD_DQ_CHAR Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000029.html" target="vbdocright">SP_ADD_PD_DQ_NUM Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000023.html" target="vbdocright">SP_ADD_PD_KS_CALCULATION Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000024.html" target="vbdocright">SP_ADD_PD_MONITORING_ITEM Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000025.html" target="vbdocright">SP_ADD_PD_PORTFOLIO_DEFAULT_RATE Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000026.html" target="vbdocright">SP_ADD_PD_PSI Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000027.html" target="vbdocright">SP_ADD_PD_RWA_SUMMARY Field</a></div>
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="9" class="header closed" onclick="toggle('c9',this)">
+    <a href="topic_000000000000005B.html" target="vbdocright">DataAccessWrapperConstants Class</a>
+    </div>
+    <div id="c9" class="item" style="display:none">
+		
+ 		
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="leaf"><a href="topic_000000000000005B_members--.html" target="vbdocright">DataAccessWrapperConstants Members</a></div>
+
+
+
+
+
+
+
+
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="10" class="header closed" onclick="toggle('c10',this)">
+    <a href="topic_000000000000005B_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c10" class="item" style="display:none">
+		
+						  <div class="leaf"><a href="topic_0000000000000061.html" target="vbdocright">EXCEPTION_MESSAGE_ADD_PARAMETER_FAILURE Property</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000005E.html" target="vbdocright">EXCEPTION_MESSAGE_CANNOT_CREATE_COMMAND Property</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000005D.html" target="vbdocright">EXCEPTION_MESSAGE_CANNOT_CREATE_CONNECTION Property</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000005F.html" target="vbdocright">EXCEPTION_MESSAGE_CANNOT_OPEN_CONNECTION Property</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000005C.html" target="vbdocright">EXCEPTION_MESSAGE_CONNECTION_STRING_MISSING Property</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000060.html" target="vbdocright">EXCEPTION_MESSAGE_REQUIRES_INITIALIZED_CONNECTION Property</a></div>
+
+			</div>
+		
+
+
+		    <div id="11" class="header closed" onclick="toggle('c11',this)">
+    <a href="topic_000000000000005B_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c11" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+ 
+
+  
+		</div>
+ 
+
+
+
+		
+		
+</body>
+</html>
