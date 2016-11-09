@@ -1,0 +1,11 @@
+E:\Development\EXL\Smart\Smart.DataAccessWrapper\bin\Debug\Smart.DataAccessWrapper.dll
+E:\Development\EXL\Smart\Smart.DataAccessWrapper\bin\Debug\Smart.DataAccessWrapper.pdb
+E:\Development\EXL\Smart\Smart.DataAccessWrapper\bin\Debug\Smart.DataAccessWrapper.dll.CodeAnalysisLog.xml
+E:\Development\EXL\Smart\Smart.DataAccessWrapper\bin\Debug\Smart.DataAccessWrapper.dll.lastcodeanalysissucceeded
+E:\Development\EXL\Smart\Smart.DataAccessWrapper\bin\Debug\Smart.Constants.dll
+E:\Development\EXL\Smart\Smart.DataAccessWrapper\bin\Debug\Smart.Constants.pdb
+E:\Development\EXL\Smart\Smart.DataAccessWrapper\bin\Debug\de-DE\Smart.Constants.resources.dll
+E:\Development\EXL\Smart\Smart.DataAccessWrapper\bin\Debug\fr-FR\Smart.Constants.resources.dll
+E:\Development\EXL\Smart\Smart.DataAccessWrapper\obj\Debug\Smart.DataAccessWrapper.csprojResolveAssemblyReference.cache
+E:\Development\EXL\Smart\Smart.DataAccessWrapper\obj\Debug\Smart.DataAccessWrapper.dll
+E:\Development\EXL\Smart\Smart.DataAccessWrapper\obj\Debug\Smart.DataAccessWrapper.pdb

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="Smart.DataAccessWrapper" Title="Smart.DataAccessWrapper Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseCommand.AddParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000006.html" LinkGroup="Smart.DataAccessWrapper">AddParameter Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseConnection.Close" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000014.html" LinkGroup="Smart.DataAccessWrapper">Close Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseWrapper.Connection" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000019.html" LinkGroup="Smart.DataAccessWrapper">Connection Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseConnection.ConnectionString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_000000000000000F.html" LinkGroup="Smart.DataAccessWrapper">ConnectionString Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseConnection.CreateCommand" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000012.html" LinkGroup="Smart.DataAccessWrapper">CreateCommand Method {Smart.DataAccessWrapper.DatabaseConnection}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseWrapper.CreateCommand" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_000000000000001B.html" LinkGroup="Smart.DataAccessWrapper">CreateCommand Method {Smart.DataAccessWrapper.DatabaseWrapper}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseWrapper.CreateStoredProcedureCommand" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_000000000000001C.html" LinkGroup="Smart.DataAccessWrapper">CreateStoredProcedureCommand Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseCommand.DatabaseCommand" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000003_overloads--.html" LinkGroup="Smart.DataAccessWrapper">DatabaseCommand </LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseCommand.DatabaseCommand" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000004_overloads--.html" LinkGroup="Smart.DataAccessWrapper">DatabaseCommand </LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseCommand" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000001.html" LinkGroup="Smart.DataAccessWrapper">DatabaseCommand Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseConnection" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_000000000000000D.html" LinkGroup="Smart.DataAccessWrapper">DatabaseConnection Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseWrapper" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000017.html" LinkGroup="Smart.DataAccessWrapper">DatabaseWrapper Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseWrapper.Default" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000018.html" LinkGroup="Smart.DataAccessWrapper">Default Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseConnection.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000015_overloads--.html" LinkGroup="Smart.DataAccessWrapper">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseConnection.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000016_overloads--.html" LinkGroup="Smart.DataAccessWrapper">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.IMapper" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_000000000000001D.html" LinkGroup="Smart.DataAccessWrapper">IMapper Interface</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseCommand.Initialize" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000005.html" LinkGroup="Smart.DataAccessWrapper">Initialize Method {Smart.DataAccessWrapper.DatabaseCommand}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseConnection.Initialize" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000011.html" LinkGroup="Smart.DataAccessWrapper">Initialize Method {Smart.DataAccessWrapper.DatabaseConnection}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseWrapper.InitializeWithConfigurationFile" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_000000000000001A.html" LinkGroup="Smart.DataAccessWrapper">InitializeWithConfigurationFile Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseCommand.IsInitialized" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000002.html" LinkGroup="Smart.DataAccessWrapper">IsInitialized Property {Smart.DataAccessWrapper.DatabaseCommand}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseConnection.IsInitialized" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_000000000000000E.html" LinkGroup="Smart.DataAccessWrapper">IsInitialized Property {Smart.DataAccessWrapper.DatabaseConnection}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.IMapper.MapDataToObject<T>" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_000000000000001E.html" LinkGroup="Smart.DataAccessWrapper">MapDataToObject<T> Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseCommand.NonQueryAsync" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_000000000000000B.html" LinkGroup="Smart.DataAccessWrapper">NonQueryAsync Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseConnection.OpenAsync" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000013.html" LinkGroup="Smart.DataAccessWrapper">OpenAsync Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseCommand.ReadAllAsync<T>" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000007.html" LinkGroup="Smart.DataAccessWrapper">ReadAllAsync<T> Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseCommand.ReadAllMapToAsync<T>" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000009.html" LinkGroup="Smart.DataAccessWrapper">ReadAllMapToAsync<T> Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseCommand.ReadOneAsync<T>" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000008.html" LinkGroup="Smart.DataAccessWrapper">ReadOneAsync<T> Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseCommand.ReadOneMapToAsync<T>" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_000000000000000A.html" LinkGroup="Smart.DataAccessWrapper">ReadOneMapToAsync<T> Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseCommand.ScalarAsync" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_000000000000000C.html" LinkGroup="Smart.DataAccessWrapper">ScalarAsync Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000000.html" LinkGroup="Smart.DataAccessWrapper">Smart.DataAccessWrapper Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_000000000000001F.html" LinkGroup="Smart.DataAccessWrapper">Smart.DataAccessWrapper Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.DataAccessWrapper.DatabaseConnection.State" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.DataAccessWrapper.chm::/topic_0000000000000010.html" LinkGroup="Smart.DataAccessWrapper">State Property</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+
