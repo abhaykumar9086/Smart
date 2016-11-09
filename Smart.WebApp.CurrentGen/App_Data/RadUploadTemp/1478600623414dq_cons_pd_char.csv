@@ -1,0 +1,4 @@
+var_name,count_all,count_missing,period_end_dt,Perc_missing
+ACCOUNT_LIFECYCLE_STATUS_CD,44,0,201603,0
+ACCOUNT_STATUS_CD,44,22,201603,22
+ACCOUNT_CRDT_STATUS_CD,44,22,201603,22
