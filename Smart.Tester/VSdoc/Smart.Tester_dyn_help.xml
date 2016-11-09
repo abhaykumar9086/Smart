@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="Smart.Tester" Title="Smart.Tester Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="Smart.Tester Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Smart.Tester.chm::/topic_0000000000000001.html" LinkGroup="Smart.Tester">Smart.Tester Reference</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

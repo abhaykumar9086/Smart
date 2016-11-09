@@ -1,0 +1,10 @@
+E:\Development\EXL\Smart\Smart.Tester\bin\Debug\Smart.Tester.exe.config
+E:\Development\EXL\Smart\Smart.Tester\bin\Debug\Smart.Tester.exe
+E:\Development\EXL\Smart\Smart.Tester\bin\Debug\Smart.Tester.pdb
+E:\Development\EXL\Smart\Smart.Tester\bin\Debug\Smart.Constants.dll
+E:\Development\EXL\Smart\Smart.Tester\bin\Debug\Smart.Constants.pdb
+E:\Development\EXL\Smart\Smart.Tester\bin\Debug\de-DE\Smart.Constants.resources.dll
+E:\Development\EXL\Smart\Smart.Tester\bin\Debug\fr-FR\Smart.Constants.resources.dll
+E:\Development\EXL\Smart\Smart.Tester\obj\Debug\Smart.Tester.csprojResolveAssemblyReference.cache
+E:\Development\EXL\Smart\Smart.Tester\obj\Debug\Smart.Tester.exe
+E:\Development\EXL\Smart\Smart.Tester\obj\Debug\Smart.Tester.pdb
